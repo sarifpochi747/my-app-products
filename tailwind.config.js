@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
- 
+
     content: [
       "./src/**/*.{html,ts}",
     ],
@@ -15,6 +15,10 @@ module.exports = {
         "black-1":"#25282B",
         "grey-4":"#6F6F6F",
       },
+    },
+    fontFamily: {
+      Anuphan: ['Anuphan'],
+      Poppins:['Poppins']
     },
   },
   plugins: [],
